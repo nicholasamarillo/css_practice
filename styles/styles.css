@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: red;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li{
+    display: inline-block;
+}
+
+.container{
+    height: 600px;
+    width:100%;
+    background-color: navy;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.titlebox{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
